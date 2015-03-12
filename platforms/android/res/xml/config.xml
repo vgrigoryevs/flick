@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="flickr.example" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Compass">
+        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
+    <icon density="ldpi" src="res/android/ldpi.png" />
+    <icon density="mdpi" src="res/android/mdpi.png" />
+    <icon density="hdpi" src="res/android/hdpi.png" />
+    <icon density="xhdpi" src="res/android/xhdpi.png" />
+    <splash density="land-hdpi" src="res/screen/android/land-hdpi.png" />
+    <splash density="land-ldpi" src="res/screen/android/land-ldpi.png" />
+    <splash density="land-mdpi" src="res/screen/android/land-mdpi.png" />
+    <splash density="land-xhdpi" src="res/screen/android/land-xhdpi.png" />
+    <splash density="port-hdpi" src="res/screen/android/port-hdpi.png" />
+    <splash density="port-ldpi" src="res/screen/android/port-ldpi.png" />
+    <splash density="port-mdpi" src="res/screen/android/port-mdpi.png" />
+    <splash density="port-xhdpi" src="res/screen/android/port-xhdpi.png" />
+    <name>FlickrExplorer</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>
